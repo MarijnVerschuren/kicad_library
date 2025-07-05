@@ -1,0 +1,246 @@
+(footprint "PCB_USB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.425 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1613c6d0-5ad3-4b9f-a36e-584dcde3fe48")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PCB_USB"
+		(at 0 -6.375 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1dd1d815-dc3b-4d94-b9c5-78b25cf6e7df")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a4517da-640b-4c8c-b248-85d502fc6cf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "838b1fca-8f02-419a-a5ff-991f527e44c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -6.5)
+		(end -5.5 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a17ae988-0aa2-456e-b75c-a045dd95d538")
+	)
+	(fp_line
+		(start -6 5.5)
+		(end -6 -6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4df12595-83cd-4af5-ac18-34dd880d641a")
+	)
+	(fp_line
+		(start -5.5 -7)
+		(end 5.5 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "228fe4b8-bbca-49ba-ac4a-faab4b8e0ec7")
+	)
+	(fp_line
+		(start 5.5 -7)
+		(end 6 -6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "88838841-784b-459d-92c6-98d94da3db28")
+	)
+	(fp_line
+		(start 6 -6.5)
+		(end 6 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "29b3c03a-799a-4be8-a903-37daf611aa44")
+	)
+	(fp_line
+		(start -6 5.5)
+		(end -6 -6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bc7f75e-00c4-4cac-bbcb-06e9a4d0fc31")
+	)
+	(fp_line
+		(start -5.975 -6.525)
+		(end -5.5 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d483939e-5a13-4197-bf42-bda7c69bfed0")
+	)
+	(fp_line
+		(start -5.5 -7)
+		(end 5.5 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "72109867-003c-46aa-b794-3c9be35513bd")
+	)
+	(fp_line
+		(start 5.5 -7)
+		(end 6 -6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dec6287-4394-4fb3-b519-4a0952a73c25")
+	)
+	(fp_line
+		(start 6 -6.5)
+		(end 6 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "256e1da9-e32e-405e-a919-fd7164addaa3")
+	)
+	(fp_line
+		(start 6 5.5)
+		(end -6 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c8b82eb-8165-4f13-b945-a11958b1ed0c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab85f7b7-27a3-4a11-a6e7-d28265828341")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.8 -0.7)
+		(size 1.3 11.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "4d829bf9-72fb-47a0-89d2-9b1ee1844f54")
+	)
+	(pad "2" smd roundrect
+		(at -1 -0.2)
+		(size 1.3 10.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "28229c3e-85be-4d5f-9a5a-d72a96262d4f")
+	)
+	(pad "3" smd roundrect
+		(at 1 -0.2)
+		(size 1.3 10.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "1199c874-d2ff-43e7-b25e-21185e317dff")
+	)
+	(pad "4" smd roundrect
+		(at 3.8 -0.7)
+		(size 1.3 11.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "6fce9ae8-dbe3-4d30-9b7a-a8d1f9255be6")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "b0f93bdd-7089-48af-b7c3-26ebd86e945d")
+		(name "USB_KEEP_OUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -6 5.5) (xy 6 5.5) (xy 6 -7) (xy -6 -7)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
