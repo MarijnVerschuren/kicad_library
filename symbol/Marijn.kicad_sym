@@ -22233,10 +22233,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -27.94 36.83 0)
 				(length 7.62)
-				(name "PH3-BOOT0"
+				(name "BOOT0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22250,11 +22250,12 @@
 						)
 					)
 				)
+				(alternate "PH3" bidirectional line)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -27.94 31.75 0)
 				(length 7.62)
-				(name "PH0-OSC_IN"
+				(name "HSE_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22268,11 +22269,12 @@
 						)
 					)
 				)
+				(alternate "PH0" bidirectional line)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -27.94 29.21 0)
 				(length 7.62)
-				(name "PH1-OSC_OUT"
+				(name "HSE_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22286,11 +22288,12 @@
 						)
 					)
 				)
+				(alternate "PH1" bidirectional line)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -27.94 24.13 0)
 				(length 7.62)
-				(name "PC14-OSC32_IN"
+				(name "LSE_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22304,11 +22307,12 @@
 						)
 					)
 				)
+				(alternate "PC14" bidirectional line)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -27.94 21.59 0)
 				(length 7.62)
-				(name "PC15-OSC32_OUT"
+				(name "LSE_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22322,6 +22326,7 @@
 						)
 					)
 				)
+				(alternate "PC15" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 12.7 0)
@@ -22340,6 +22345,7 @@
 						)
 					)
 				)
+				(alternate "SPI2_NSS" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 10.16 0)
@@ -22358,6 +22364,7 @@
 						)
 					)
 				)
+				(alternate "SPI2_SCK" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 7.62 0)
@@ -22376,6 +22383,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM4_ETR" bidirectional line)
+				(alternate "SDMMC1_CMD" bidirectional line)
+				(alternate "TIM3_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 5.08 0)
@@ -22394,6 +22404,8 @@
 						)
 					)
 				)
+				(alternate "SPI2_MISO" bidirectional line)
+				(alternate "SPI2_SCK" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 2.54 0)
@@ -22412,6 +22424,7 @@
 						)
 					)
 				)
+				(alternate "SPI2_MOSI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 0 0)
@@ -22430,6 +22443,7 @@
 						)
 					)
 				)
+				(alternate "SPI2_RDY" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -2.54 0)
@@ -22448,6 +22462,7 @@
 						)
 					)
 				)
+				(alternate "SPI3_MOSI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -5.08 0)
@@ -22466,6 +22481,7 @@
 						)
 					)
 				)
+				(alternate "LPTIM4_OUT" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -7.62 0)
@@ -22502,6 +22518,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_IN2" bidirectional line)
+				(alternate "LPTIM3_IN1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -12.7 0)
@@ -22520,6 +22538,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_CH2" bidirectional line)
+				(alternate "LPTIM3_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -15.24 0)
@@ -22538,6 +22558,7 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -17.78 0)
@@ -22556,6 +22577,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_IN1" bidirectional line)
+				(alternate "TIM4_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -20.32 0)
@@ -22574,6 +22597,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_CH1" bidirectional line)
+				(alternate "LPTIM4_IN1" bidirectional line)
+				(alternate "TIM4_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -22.86 0)
@@ -22592,6 +22618,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_CH1" bidirectional line)
+				(alternate "TIM4_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -25.4 0)
@@ -22610,6 +22638,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_CH2" bidirectional line)
+				(alternate "TIM4_CH4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -29.21 0)
@@ -22628,6 +22658,8 @@
 						)
 					)
 				)
+				(alternate "TIM16_CH1" bidirectional line)
+				(alternate "TIM4_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -31.75 0)
@@ -22646,6 +22678,7 @@
 						)
 					)
 				)
+				(alternate "TIM17_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -34.29 0)
@@ -22664,6 +22697,7 @@
 						)
 					)
 				)
+				(alternate "TIM3_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -36.83 0)
@@ -22682,6 +22716,7 @@
 						)
 					)
 				)
+				(alternate "TIM3_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -39.37 0)
@@ -22700,6 +22735,7 @@
 						)
 					)
 				)
+				(alternate "TIM3_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -41.91 0)
@@ -22718,6 +22754,7 @@
 						)
 					)
 				)
+				(alternate "TIM3_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -44.45 0)
@@ -22736,6 +22773,7 @@
 						)
 					)
 				)
+				(alternate "TIM3_CH4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -46.99 0)
@@ -22754,6 +22792,7 @@
 						)
 					)
 				)
+				(alternate "TIM1_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -49.53 0)
@@ -22772,6 +22811,7 @@
 						)
 					)
 				)
+				(alternate "TIM1_CH1N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -52.07 0)
@@ -22790,6 +22830,7 @@
 						)
 					)
 				)
+				(alternate "TIM1_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -54.61 0)
@@ -22808,6 +22849,7 @@
 						)
 					)
 				)
+				(alternate "TIM1_CH2N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -57.15 0)
@@ -22826,6 +22868,8 @@
 						)
 					)
 				)
+				(alternate "SPI1_RDY" bidirectional line)
+				(alternate "TIM1_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -59.69 0)
@@ -22844,6 +22888,8 @@
 						)
 					)
 				)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "TIM1_CH3N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -62.23 0)
@@ -22862,6 +22908,8 @@
 						)
 					)
 				)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "TIM1_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -64.77 0)
@@ -22880,6 +22928,9 @@
 						)
 					)
 				)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "TIM1_BKIN2" bidirectional line)
+				(alternate "TIM1_CH4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -27.94 -67.31 0)
@@ -22898,6 +22949,9 @@
 						)
 					)
 				)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "TIM1_BKIN" bidirectional line)
+				(alternate "TIM1_CH4N" bidirectional line)
 			)
 			(pin power_in line
 				(at -6.35 72.39 270)
@@ -23132,6 +23186,9 @@
 						)
 					)
 				)
+				(alternate "SPI3_RDY" bidirectional line)
+				(alternate "TIM2_CH1" bidirectional line)
+				(alternate "TIM2_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 54.61 180)
@@ -23150,6 +23207,9 @@
 						)
 					)
 				)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "TIM15_CH1N" bidirectional line)
+				(alternate "TIM2_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 52.07 180)
@@ -23168,6 +23228,9 @@
 						)
 					)
 				)
+				(alternate "SPI1_RDY" bidirectional line)
+				(alternate "TIM15_CH1" bidirectional line)
+				(alternate "TIM2_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 49.53 180)
@@ -23186,6 +23249,8 @@
 						)
 					)
 				)
+				(alternate "TIM15_CH2" bidirectional line)
+				(alternate "TIM2_CH4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 46.99 180)
@@ -23204,6 +23269,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_CH1" bidirectional line)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "SPI3_NSS" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 44.45 180)
@@ -23222,6 +23290,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_ETR" bidirectional line)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "TIM2_CH1" bidirectional line)
+				(alternate "TIM2_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 41.91 180)
@@ -23240,6 +23312,10 @@
 						)
 					)
 				)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "TIM16_CH1" bidirectional line)
+				(alternate "TIM1_BKIN" bidirectional line)
+				(alternate "TIM3_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 39.37 180)
@@ -23258,6 +23334,11 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_CH2" bidirectional line)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "TIM17_CH1" bidirectional line)
+				(alternate "TIM1_CH1N" bidirectional line)
+				(alternate "TIM3_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 36.83 180)
@@ -23276,6 +23357,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_CH1" bidirectional line)
+				(alternate "SPI1_RDY" bidirectional line)
+				(alternate "TIM1_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 34.29 180)
@@ -23294,6 +23378,9 @@
 						)
 					)
 				)
+				(alternate "SPI2_SCK" bidirectional line)
+				(alternate "TIM15_BKIN" bidirectional line)
+				(alternate "TIM1_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 31.75 180)
@@ -23312,6 +23399,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_IN2" bidirectional line)
+				(alternate "TIM17_BKIN" bidirectional line)
+				(alternate "TIM1_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 29.21 180)
@@ -23330,6 +23420,10 @@
 						)
 					)
 				)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "TIM1_BKIN2" bidirectional line)
+				(alternate "TIM1_CH4" bidirectional line)
+				(alternate "USB_DN" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 26.67 180)
@@ -23348,6 +23442,10 @@
 						)
 					)
 				)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "TIM1_ETR" bidirectional line)
+				(alternate "TIM4_ETR" bidirectional line)
+				(alternate "USB_DP" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 24.13 180)
@@ -23366,6 +23464,7 @@
 						)
 					)
 				)
+				(alternate "USB_NOE" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 21.59 180)
@@ -23384,6 +23483,7 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 19.05 180)
@@ -23402,6 +23502,10 @@
 						)
 					)
 				)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "SPI3_NSS" bidirectional line)
+				(alternate "TIM2_CH1" bidirectional line)
+				(alternate "TIM2_ETR" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 12.7 180)
@@ -23420,6 +23524,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_CH1" bidirectional line)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "TIM1_CH2N" bidirectional line)
+				(alternate "TIM3_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 10.16 180)
@@ -23438,6 +23546,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_IN1" bidirectional line)
+				(alternate "LPTIM3_CH2" bidirectional line)
+				(alternate "TIM1_CH3N" bidirectional line)
+				(alternate "TIM3_CH4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 7.62 180)
@@ -23456,6 +23568,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_CH1" bidirectional line)
+				(alternate "SPI1_RDY" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 5.08 180)
@@ -23474,6 +23588,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_CH1" bidirectional line)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "SPI3_SCK" bidirectional line)
+				(alternate "TIM2_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 2.54 180)
@@ -23492,6 +23610,11 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_CH2" bidirectional line)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "SPI3_MISO" bidirectional line)
+				(alternate "TIM17_BKIN" bidirectional line)
+				(alternate "TIM3_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 0 180)
@@ -23510,6 +23633,11 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_IN1" bidirectional line)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "SPI3_MOSI" bidirectional line)
+				(alternate "TIM16_BKIN" bidirectional line)
+				(alternate "TIM3_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -2.54 180)
@@ -23528,6 +23656,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_ETR" bidirectional line)
+				(alternate "TIM16_CH1N" bidirectional line)
+				(alternate "TIM4_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -5.08 180)
@@ -23546,6 +23677,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_IN2" bidirectional line)
+				(alternate "TIM17_CH1N" bidirectional line)
+				(alternate "TIM4_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -7.62 180)
@@ -23564,6 +23698,11 @@
 						)
 					)
 				)
+				(alternate "SDMMC1_CKIN" input line)
+				(alternate "SDMMC1_D4" bidirectional line)
+				(alternate "SPI3_RDY" bidirectional line)
+				(alternate "TIM16_CH1" bidirectional line)
+				(alternate "TIM4_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -10.16 180)
@@ -23582,6 +23721,11 @@
 						)
 					)
 				)
+				(alternate "SDMMC1_CDIR" bidirectional line)
+				(alternate "SDMMC1_D5" bidirectional line)
+				(alternate "SPI2_NSS" bidirectional line)
+				(alternate "TIM17_CH1" bidirectional line)
+				(alternate "TIM4_CH4" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -12.7 180)
@@ -23600,6 +23744,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_CH1" bidirectional line)
+				(alternate "SPI2_SCK" bidirectional line)
+				(alternate "TIM2_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -15.24 180)
@@ -23618,6 +23765,9 @@
 						)
 					)
 				)
+				(alternate "SPI2_NSS" bidirectional line)
+				(alternate "TIM15_BKIN" bidirectional line)
+				(alternate "TIM1_BKIN" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -17.78 180)
@@ -23636,6 +23786,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_IN1" bidirectional line)
+				(alternate "SPI2_SCK" bidirectional line)
+				(alternate "TIM15_CH1N" bidirectional line)
+				(alternate "TIM1_CH1N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -20.32 180)
@@ -23654,6 +23808,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_ETR" bidirectional line)
+				(alternate "SPI2_MISO" bidirectional line)
+				(alternate "TIM15_CH1" bidirectional line)
+				(alternate "TIM1_CH2N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -22.86 180)
@@ -23672,6 +23830,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_IN2" bidirectional line)
+				(alternate "SPI2_MOSI" bidirectional line)
+				(alternate "TIM15_CH2" bidirectional line)
+				(alternate "TIM1_CH3N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -27.94 180)
@@ -23690,6 +23852,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_IN1" bidirectional line)
+				(alternate "LPTIM2_IN1" bidirectional line)
+				(alternate "SDMMC1_D5" bidirectional line)
+				(alternate "SPI2_RDY" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -30.48 180)
@@ -23708,6 +23874,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_CH1" bidirectional line)
+				(alternate "SPI2_MOSI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -33.02 180)
@@ -23726,6 +23894,8 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_IN2" bidirectional line)
+				(alternate "SPI2_MISO" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -35.56 180)
@@ -23744,6 +23914,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM1_ETR" bidirectional line)
+				(alternate "LPTIM2_ETR" bidirectional line)
+				(alternate "LPTIM3_CH1" bidirectional line)
+				(alternate "SPI2_MOSI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -38.1 180)
@@ -23780,6 +23954,7 @@
 						)
 					)
 				)
+				(alternate "TIM1_CH4N" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -43.18 180)
@@ -23798,6 +23973,9 @@
 						)
 					)
 				)
+				(alternate "SDMMC1_D0DIR" bidirectional line)
+				(alternate "SDMMC1_D6" bidirectional line)
+				(alternate "TIM3_CH1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -45.72 180)
@@ -23816,6 +23994,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM2_CH2" bidirectional line)
+				(alternate "SDMMC1_D123DIR" bidirectional line)
+				(alternate "SDMMC1_D7" bidirectional line)
+				(alternate "TIM3_CH2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -48.26 180)
@@ -23834,6 +24016,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_CH1" bidirectional line)
+				(alternate "SDMMC1_D0" bidirectional line)
+				(alternate "TIM3_CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -50.8 180)
@@ -23852,6 +24037,10 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_CH2" bidirectional line)
+				(alternate "SDMMC1_D1" bidirectional line)
+				(alternate "TIM3_CH4" bidirectional line)
+				(alternate "USB_NOE" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -53.34 180)
@@ -23870,6 +24059,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_ETR" bidirectional line)
+				(alternate "SDMMC1_D2" bidirectional line)
+				(alternate "SPI3_SCK" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -55.88 180)
@@ -23888,6 +24080,9 @@
 						)
 					)
 				)
+				(alternate "LPTIM3_IN1" bidirectional line)
+				(alternate "SDMMC1_D3" bidirectional line)
+				(alternate "SPI3_MISO" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -58.42 180)
@@ -23906,6 +24101,8 @@
 						)
 					)
 				)
+				(alternate "SDMMC1_CK" bidirectional line)
+				(alternate "SPI3_MOSI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -60.96 180)
