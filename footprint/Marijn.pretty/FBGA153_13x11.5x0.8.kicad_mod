@@ -1,4 +1,4 @@
-(footprint "FBGA153_13X11.5X0.8"
+(footprint "FBGA153_13x11.5x0.8"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FBGA153_13X11.5X0.8"
+	(property "Value" "FBGA153_13x11.5x0.8"
 		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
