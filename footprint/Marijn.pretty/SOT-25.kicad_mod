@@ -3,14 +3,15 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "SOT25"
-		(at 0 -0.18 0)
+	(property "Reference" "REF**"
+		(at 0 -2.1875 0)
 		(layer "F.SilkS")
 		(uuid "54fa8c23-96bf-4936-bd05-2d3fa54210c7")
 		(effects
 			(font
-				(size 0.4 0.5)
-				(thickness 0.1)
+				(size 0.65 0.65)
+				(thickness 0.15)
+				(bold yes)
 			)
 		)
 	)
@@ -113,15 +114,15 @@
 		(layer "F.CrtYd")
 		(uuid "c351f960-fc76-4324-bbc8-ba5456e84644")
 	)
-	(fp_text user "REF**"
-		(at -1.375 -1.875 0)
+	(fp_text user "SOT25"
+		(at -1.2375 -0.1125 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "47b000eb-1634-4290-9e0d-323f6c65436d")
 		(effects
 			(font
-				(size 0.65 0.65)
-				(thickness 0.15)
+				(size 0.4 0.5)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify left bottom)
