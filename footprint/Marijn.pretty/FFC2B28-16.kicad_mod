@@ -1,4 +1,4 @@
-(footprint "FFC2B28-16-G"
+(footprint "FFC2B28-16"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FFC2B28-16-G"
+	(property "Value" "FFC2B28-16"
 		(at -5 -8.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
