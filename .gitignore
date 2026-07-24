@@ -1,2 +1,3 @@
 unpack/
 *.bak
+*__pycache__/

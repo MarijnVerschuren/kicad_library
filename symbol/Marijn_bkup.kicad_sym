@@ -9260,6 +9260,42 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MCXN947VDFT?qs=Z%252BL2brAPG1LCTJ7PAuK4bA%3D%3D"
+			(at 39.37 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "MCXN947VDFT"
+			(at 39.37 -894.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcxn947vdft/nxp-semiconductors?utm_currency=USD&region=nac"
+			(at 39.37 -994.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(symbol "MCXN947VDFT_1_1"
 			(rectangle
 				(start 5.08 2.54)
