@@ -119,5 +119,5 @@ if __name__ == "__main__":
 
     print(*lib.symbols, sep="\n", end="\n\n")
 
-    MCXN947VDFT_edit(lib)
+    #MCXN947VDFT_edit(lib)
     lib.dump(SYM_ED_FILE)
